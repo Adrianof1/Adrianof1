@@ -14,7 +14,7 @@
  
 <br>
  
-### Me nas redes abaixo!
+### Me segue nas redes abaixo!
  
 <div> 
   <a href="www.linkedin.com/in/adriano-ferreira-8b227b11b" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
