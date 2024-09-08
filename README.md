@@ -1,4 +1,4 @@
-## Bem-vindo(a) ao perfil de Adriano Ferreira 😁
+<h1 align="center"> Bem-vindo(a) ao perfil de Adriano Ferreira 😁 </h1>
 
  <div>
    <a href="https://github.com/Adrianof1">
