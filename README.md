@@ -19,7 +19,7 @@
   - 🔭 Atualmente estou na faculdade de ADS.
   - 👯 Estou procurando colaborar em algum projeto.
   - 🛡️ Membro cômite publico Instituto de defesa Cibernética]
-  - 👨‍💻 Voluntario EMBAIXADOR DIO CAMPUS EXPERT.
+  - 👨‍💻 Volunário EMBAIXADOR DIO CAMPUS EXPERT.
     
 
 
