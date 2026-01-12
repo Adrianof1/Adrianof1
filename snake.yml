@@ -1,38 +1,32 @@
 name: Generate Snake
 
-# Controla quando a ação vai rodar
 on:
-  # Roda automaticamente a cada 24 horas (meia-noite)
   schedule:
-    - cron: "0 0 * * *" 
-  
-  # Permite rodar manualmente na aba Actions se você quiser ver agora
-  workflow_dispatch:
-
-  # Roda a cada push na branch master/main
+    - cron: "0 0 * * *" # Roda todo dia meia-noite
+  workflow_dispatch: # Permite rodar manualmente
   push:
     branches:
-    - master
     - main
+    - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v3
 
       - name: Generate Snake
         uses: Platane/snk@v3
-        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push Snake to Output Branch
+      - name: Push to Output
         uses: crazy-max/gh-action-github-pages@v3.1.0
         with:
           target_branch: output
