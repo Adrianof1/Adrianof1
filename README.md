@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=20C20E&background=00000000&center=true&vCenter=true&width=435&lines=Adriano+Ferreira;Full+Stack+Developer;React+%7C+Python+%7C+Automa%C3%A7%C3%A3o;Transformando+C%C3%B3digo+em+Solu%C3%A7%C3%B3es" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=20C20E&background=00000000&center=true&vCenter=true&width=435&lines=Adriano+Ferreira;Full+Stack+Developer;React+%7C+Python+%7C+Automa%C3%A7%C3%A3o;Code+is+Art" alt="Typing SVG" />
   </a>
 
   <h1>🚀 Adriano Ferreira</h1>
@@ -19,44 +19,34 @@
 
   <br/>
 
-  <h3>🏆 Conquistas Desbloqueadas</h3>
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Adrianof1&theme=git_dark&no-frame=true&no-bg=true&margin-w=4" alt="trophy" />
-  </a>
+  <h3>🔥 Minha Constância</h3>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Adrianof1&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
 </div>
 
 <hr/>
 
 <h3 align="center">🛠️ Arsenal Tecnológico</h3>
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,js,html,css,tailwind,python,nodejs,mysql,git,github,vscode,vite,linux&perline=7" />
+  <img src="https://skillicons.dev/icons?i=react,js,html,css,tailwind,python,nodejs,mysql,git,vscode,vite,linux&perline=7" />
 </div>
 
 <br/>
 
-### 💻 Projetos em Destaque
-
-| 🌟 Projeto | 📝 Descrição | 🚀 Tech |
-| :--- | :--- | :--- |
-| **[PC Pinturas](https://pcpinturasthe.netlify.app)** | Site comercial focado em vendas e SEO. | `React` `Tailwind` |
-| **[Gestão Escolar](https://gestaoescolarereforco.netlify.app/)** | Sistema completo com gamificação. | `Node` `React` |
-| **[AIPMS](https://aipms.netlify.app/)** | Portal de acessibilidade social. | `HTML` `JS` |
-| **[IW Decor](https://iwdecor.netlify.app/)** | Catálogo digital moderno. | `UI/UX` |
-
-<br/>
-
-<h3 align="center">📊 Performance no GitHub</h3>
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Adrianof1&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+  <h3>💻 Projetos em Destaque</h3>
   
-  <br/><br/>
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrianof1&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Langs" />
+| 🚀 Projeto | 📝 O que resolve? | 🛠️ Stack | 🟢 Status |
+| :--- | :--- | :--- | :---: |
+| **PC Pinturas** | Site de alta conversão e SEO local. | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) | [![Website](https://img.shields.io/website?url=https%3A%2F%2Fpcpinturasthe.netlify.app&up_message=Online&up_color=success&style=flat-square)](https://pcpinturasthe.netlify.app) |
+| **Gestão Escolar** | Sistema gamificado de ensino. | ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white) | [![Website](https://img.shields.io/website?url=https%3A%2F%2Fgestaoescolarereforco.netlify.app&up_message=Online&up_color=success&style=flat-square)](https://gestaoescolarereforco.netlify.app/) |
+| **AIPMS** | Portal social e acessível. | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | [![Website](https://img.shields.io/website?url=https%3A%2F%2Faipms.netlify.app&up_message=Online&up_color=success&style=flat-square)](https://aipms.netlify.app/) |
+| **IW Decor** | Catálogo visual moderno. | ![UI/UX](https://img.shields.io/badge/UI%2FUX-Design-purple) | [![Website](https://img.shields.io/website?url=https%3A%2F%2Fiwdecor.netlify.app&up_message=Online&up_color=success&style=flat-square)](https://iwdecor.netlify.app/) |
+
 </div>
 
 <br/>
 
-<h3 align="center">🐍 Minhas Contribuições</h3>
+<h3 align="center">🐍 Contribuições</h3>
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adrianof1/Adrianof1/output/github-contribution-grid-snake-dark.svg">
