@@ -1,9 +1,14 @@
 name: Generate Snake
 
 on:
+  # Roda automaticamente todo dia à meia-noite
   schedule:
     - cron: "0 0 * * *" 
+  
+  # Permite você rodar manualmente na aba "Actions" para testar
   workflow_dispatch:
+  
+  # Roda sempre que você fizer push na branch principal
   push:
     branches:
     - main
@@ -12,23 +17,29 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    # PERMISSÃO CRÍTICA: Sem isso, o erro "403" ou "not found" acontece
     permissions: 
       contents: write
     
     steps:
-      - name: Checkout
+      - name: Checkout do Repositório
         uses: actions/checkout@v3
 
-      - name: Generate Snake
+      - name: Gerar a Cobrinha (Snake Game)
         uses: Platane/snk@v3
+        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          # Token secreto gerado automaticamente pelo GitHub
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push to Output
-        uses: crazy-max/gh-action-github-pages@v4
+      - name: Publicar na branch "output"
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
