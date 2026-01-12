@@ -1,0 +1,37 @@
+name: Update Copyright Year
+
+on:
+  # Roda todo dia 1º de Janeiro à meia-noite
+  schedule:
+    - cron: "0 0 1 1 *"
+  # Permite rodar manualmente para testar (ou corrigir se falhar)
+  workflow_dispatch:
+
+jobs:
+  update-year:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permissão para editar o README
+
+    steps:
+      - name: Checkout do Código
+        uses: actions/checkout@v3
+
+      - name: Atualizar o Ano no README
+        run: |
+          # Pega o ano atual (ex: 2026)
+          YEAR=$(date +'%Y')
+          
+          # Procura por "© 2021 - XXXX" e substitui por "© 2021 - ANO_ATUAL"
+          # O comando sed edita o arquivo no lugar (-i)
+          sed -i -E "s/© 2021 - [0-9]{4}/© 2021 - $YEAR/g" README.md
+          
+          # Mostra o que mudou (apenas para log)
+          git diff
+
+      - name: Salvar Alteração (Commit)
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "docs: update copyright year to ${{ steps.date.outputs.date }}"
+          branch: main
+          file_pattern: README.md
