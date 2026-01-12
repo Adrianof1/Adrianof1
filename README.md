@@ -42,18 +42,16 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <a href="https://github.com/Adrianof1">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Adrianof1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrianof1&layout=compact&theme=tokyonight"/>
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=Adrianof1&show_icons=true&theme=tokyonight&hide_border=true" height="180" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrianof1&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="languages graph" />
 </div>
 
 <br/>
 
-### 🐍 Minhas Contribuições (Snake Game)
+### 🐍 Minhas Contribuições
 
 <div align="center">
-  <img src="https://github.com/Adrianof1/Adrianof1/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://github.com/Adrianof1/Adrianof1/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </div>
 
 <hr/>
