@@ -69,5 +69,5 @@
 
 <div align="center">
   <p><i>"A única maneira de fazer um ótimo trabalho é amar o que você faz."</i></p>
-  <p>© 2026 Adriano Ferreira</p>
+  <p>© 2021 - [ANO] Adriano Ferreira</p>
 </div>
