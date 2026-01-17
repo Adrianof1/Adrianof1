@@ -3,7 +3,7 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=20C20E&background=00000000&center=true&vCenter=true&width=435&lines=Adriano+Ferreira;Full+Stack+Developer;React+%7C+Python+%7C+Automa%C3%A7%C3%A3o;Code+is+Art" alt="Typing SVG" />
   </a>
 
-  <h1>🚀 Adriano Ferreira</h1>
+  <h1>🚀 Adriano Ferreira.</h1>
   
   <p>
     <a href="https://linkedin.com/in/adrianoferreira-dev">
