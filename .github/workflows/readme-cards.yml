@@ -23,7 +23,7 @@ jobs:
           card: stats
           options: "username=Adrianof1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
           path: assets/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Gerar card de Top Languages
         uses: soulteary/github-readme-stats-action@v1.0.0
@@ -39,7 +39,7 @@ jobs:
         with:
           username: Adrianof1
           output_path: assets/trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Commitar cards atualizados
         run: |
