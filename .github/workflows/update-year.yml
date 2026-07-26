@@ -18,20 +18,22 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Atualizar o Ano no README
+        id: date
         run: |
           # Pega o ano atual (ex: 2026)
           YEAR=$(date +'%Y')
-          
+          echo "year=$YEAR" >> "$GITHUB_OUTPUT"
+
           # Procura por "© 2021 - XXXX" e substitui por "© 2021 - ANO_ATUAL"
           # O comando sed edita o arquivo no lugar (-i)
           sed -i -E "s/© 2021 - [0-9]{4}/© 2021 - $YEAR/g" README.md
-          
+
           # Mostra o que mudou (apenas para log)
           git diff
 
       - name: Salvar Alteração (Commit)
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "docs: update copyright year to ${{ steps.date.outputs.date }}"
+          commit_message: "docs: update copyright year to ${{ steps.date.outputs.year }}"
           branch: main
           file_pattern: README.md
