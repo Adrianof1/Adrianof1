@@ -67,7 +67,7 @@
 
 <h3 align="center">🏆 Trophies</h3>
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Adrianof1&theme=tokyonight&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy-fork-two.vercel.app/?username=Adrianof1&theme=tokyonight&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
 </div>
 
 <br/>
