@@ -9,12 +9,17 @@
     <a href="https://linkedin.com/in/adrianoferreira-dev">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
     </a>
-    <a href="https://wa.me/5586999830819">
-      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+    <a href="mailto:adrianoferreira8@outlook.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
     </a>
     <a href="https://github.com/Adrianof1">
       <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
     </a>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/status-dispon%C3%ADvel%20para%20novos%20projetos-brightgreen?style=flat-square" alt="Status" />
+    <img src="https://komarev.com/ghpvc/?username=Adrianof1&label=Visitas%20ao%20perfil&color=20C20E&style=flat-square" alt="Visitor Count" />
   </p>
 
   <br/>
@@ -63,6 +68,13 @@
 <h3 align="center">🏆 Trophies</h3>
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Adrianof1&theme=tokyonight&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
+</div>
+
+<br/>
+
+<h3 align="center">📈 Atividade</h3>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adrianof1&theme=tokyo-night&hide_border=true&area=true" alt="GitHub Activity Graph" />
 </div>
 
 <br/>
