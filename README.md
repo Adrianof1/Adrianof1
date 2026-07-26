@@ -45,8 +45,8 @@
 <br/>
 
 <div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Adrianof1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrianof1&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img height="165em" src="./assets/stats.svg" alt="GitHub Stats" />
+  <img height="165em" src="./assets/top-langs.svg" alt="Top Languages" />
 </div>
 
 <br/>
@@ -67,7 +67,7 @@
 
 <h3 align="center">🏆 Trophies</h3>
 <div align="center">
-  <img src="https://github-profile-trophy-fork-two.vercel.app/?username=Adrianof1&theme=tokyonight&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
+  <img src="./assets/trophy.svg" alt="GitHub Trophies" />
 </div>
 
 <br/>
