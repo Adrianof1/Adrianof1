@@ -25,9 +25,23 @@
 
 <hr/>
 
+<h3 align="center">👋 Sobre mim</h3>
+<p align="center">
+  Desenvolvedor Full Stack focado em transformar ideias em produtos reais: sites de alta conversão, sistemas de gestão e automações que economizam tempo de quem usa. Trabalho principalmente com <b>React</b> e <b>Python</b>, sempre buscando código limpo e experiências acessíveis. Aprendendo algo novo todo dia — e gostando disso.
+</p>
+
+<hr/>
+
 <h3 align="center">🛠️ Arsenal Tecnológico</h3>
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,js,html,css,tailwind,python,nodejs,mysql,git,vscode,vite,linux&perline=7" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Adrianof1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrianof1&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
 <br/>
@@ -42,6 +56,13 @@
 | **AIPMS** | Portal social e acessível. | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | [![Website](https://img.shields.io/website?url=https%3A%2F%2Faipms.netlify.app&up_message=Online&up_color=success&style=flat-square)](https://aipms.netlify.app/) |
 | **IW Decor** | Catálogo visual moderno. | ![UI/UX](https://img.shields.io/badge/UI%2FUX-Design-purple) | [![Website](https://img.shields.io/website?url=https%3A%2F%2Fiwdecor.netlify.app&up_message=Online&up_color=success&style=flat-square)](https://iwdecor.netlify.app/) |
 
+</div>
+
+<br/>
+
+<h3 align="center">🏆 Trophies</h3>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Adrianof1&theme=tokyonight&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
 </div>
 
 <br/>
